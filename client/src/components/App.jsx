@@ -36,16 +36,37 @@ class App extends React.Component {
   }
 
   render() {
+
+    const dateBuilder = (d) => {
+      let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+      let day = days[d.getDay()];
+      let date = d.getDate();
+      let month = months[d.getMonth()];
+      let year = d.getFullYear();
+      return `${day} ${date} ${month} ${year}`
+    };
+
     return (
-      <div className='app'>
-        <h1>hello from app.jsx</h1>
+      <div className='app warm'>
         <main>
-          <div className='search-bar'>
+          <div className='search-box'>
             <input
               type='text'
-              className='seach-bar'
+              className='search-bar'
               placeholder='search...'
             />
+          </div>
+          <div className='location-box'>
+            <div className='location'>Denver Colorado</div>
+            <div className='date'>{dateBuilder(new Date())}</div>
+          </div>
+          <div className='weather-box'>
+            <div className='temp'>
+              75F
+            </div>
+            <div className='weather'>Beautiful</div>
           </div>
         </main>
       </div>
