@@ -9,7 +9,7 @@
     "build": "webpack -p",
     "react-dev": "npm run webpack -- --mode development --watch",
     "start": "node server/server.js",
-    "server-dev": "nodemon ./server/server.js"
+    "server-dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
