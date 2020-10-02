@@ -15,6 +15,79 @@
 .app.warm {
   background-image: url('../../images/night.png');
 }
+.auth-container {
+  padding-top: 30px;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.auth-box {
+  position: relative;
+  display: block;
+  width: 50vw;
+  height: 40vh;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  /* text-shadow: 3px 6px rgba(50, 50, 70, 0.5); */
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.auth-box
+  .userName-bar {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 16px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 900;
+    /* text-shadow: 3px 6px rgba(50, 50, 70, 0.5); */
+    text-align: center;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  }
+
+.auth-box
+  .password-bar  {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 16px;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 900;
+    /* text-shadow: 3px 6px rgba(50, 50, 70, 0.5); */
+    text-align: center;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  }
+
+.btn {
+  position: relative;
+  display: block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 900;
+  /* text-shadow: 3px 6px rgba(50, 50, 70, 0.5); */
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.auth-container {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+}
 
 main {
   min-height: 100vh;
@@ -37,7 +110,7 @@ main {
     border: none;
     outline: none;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 0px 0px 16px 16px;
+    border-radius: 16px 16px 16px 16px;
     margin-top: -25px;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
     color: #313131;
@@ -95,3 +168,4 @@ main {
     font-weight: 700;
     text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
   }
+
