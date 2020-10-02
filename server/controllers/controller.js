@@ -1,3 +1,5 @@
+const models = require('../models/models');
+
 // const makeAPIcall = (req, res) => {
 //   models.getProductQuestions((error, result) => {
 //     if (error) {
@@ -10,3 +12,7 @@
 //     }
 //   });
 // };
+
+module.exports = {
+
+};

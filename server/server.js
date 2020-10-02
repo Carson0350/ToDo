@@ -6,7 +6,11 @@ const app = express();
 
 const path = require('path');
 
+const router = require('./routes/routes.js');
+
 app.use(express.json());
+
+app.use('/', router);
 
 const PORT = 3000;
 

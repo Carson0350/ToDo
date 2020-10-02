@@ -1,7 +1,9 @@
-// const express = require('express');
+const express = require('express');
 
-// const router = express.Router();
+const router = express.Router();
 
-// const controllers = require('../controllers/controller.js');
+const controllers = require('../controllers/controller');
 
-// router.get('/', controllers.makeAPIcall);
+// router.get('/test', controllers.controlTest);
+
+module.exports = router;

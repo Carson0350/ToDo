@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 
-const Auth = (props) => (
+const Auth = () => (
   <div>
     <div className="auth-container">
       <div className="auth-box">
